@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>DateTimeColor</title>
+  <meta name="description" content="milliseconds many colors">
+  <meta name="author" content="Zachary Scott Bedell">
+
+  <!--link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"-->
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+  <script src="vendor/moment/moment.min.js"></script>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/css.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    TODO IE9 easter egg.
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class="container">
+    <div>
+      <span id="millisecond-display">1234</span>
+    </div>
+    <div class="text-lg">
+      <span id="datetime-display">11:46 PM</span>
+    </div>
+    <p>
+      <span>SSZ: </span><span id="diffSeconds-output"></span>
+    </p>
+
+  </div>
+
+  <script src="js/js.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      updateClock();
+    });
+  </script>
+</body>
+</html>

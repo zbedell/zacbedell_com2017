@@ -1,0 +1,26 @@
+body {
+
+  color: white;
+  /* font-family: 'Poiret One', sans-serif; */
+  font-family: 'Anonymous Pro', sans-serif;
+  font-size: 5vw;
+  height: 100vh;
+}
+.text-lg {
+  font-size: 10vw;
+}
+.container {
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  -webkit-animation: hue 60s infinite linear;
+  padding: 62vh 5vw 0vh 5vw;
+  height: 100vh;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
