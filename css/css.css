@@ -1,20 +1,54 @@
 body {
-
+  font-family: 'Merriweather', serif;
   color: white;
-  /* font-family: 'Poiret One', sans-serif; */
-  font-family: 'Anonymous Pro', sans-serif;
-  font-size: 5vw;
-  height: 100vh;
 }
-.text-lg {
-  font-size: 10vw;
-}
-.container {
+.landing {
   background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
   -webkit-animation: hue 60s infinite linear;
-  padding: 62vh 5vw 0vh 5vw;
-  height: 100vh;
+  clip-path: polygon(0 0%, 100% 0%, 100% 97%, 0% 100%);
+  padding-bottom: 7vh;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+h1 {font-size:17vw;line-height: 14vh;}
+a {
+  text-decoration: none;
+  border-bottom: 3px solid magenta;
+  box-shadow: inset 0 -4vh 0 magenta;
+}
+
+p{font-size: 1em;line-height: 1.62em;margin-bottom: 7vh;}
+
+section#top{
+  padding: 3vh 1vw 0 0;
+}
+
+#epoch-display{}
+#ssz{}
+
+section#welcome{
+  padding: 37vh 0 0 3vw;
+}
+
+section#about{
+  padding: 17vh 3vw 0 7vw;
+}
+
+.mono {
+  font-family: 'PT Mono', monospace;
+}
+
+section .mono{
+  text-align: right;
+  font-size: .5em;
+  opacity: .5;
+}
+
+
+
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);

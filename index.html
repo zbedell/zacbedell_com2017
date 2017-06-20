@@ -4,18 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>DateTimeColor</title>
-  <meta name="description" content="milliseconds many colors">
+  <title>ZAC UX</title>
+  <meta name="description" content="">
   <meta name="author" content="Zachary Scott Bedell">
   <link rel="icon" type="image/png" href="img/favicon-01.png" />
 
-  <!--link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"-->
-  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
-
-  <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
-  <script src="vendor/moment/moment.min.js"></script>
-  <script src="vendor/scrollmagic/minified/ScrollMagic.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald:700|PT+Mono" rel="stylesheet">
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/css.css">
@@ -28,19 +22,35 @@
 
 <body>
 
-  <div class="container">
-    <div>
-      <span id="millisecond-display">1234</span>
-    </div>
-    <div class="text-lg">
-      <span id="datetime-display">11:46 PM</span>
-    </div>
-    <p>
-      <span>SSZ: </span><span id="diffSeconds-output"></span>
-    </p>
-
+  <div class="landing" data-top>
+    <section id="top" name="top">
+      <div id="epoch-display" class="mono"></div>
+      <div id="ssz" class="mono"></div>
+    </section>
+    <section id="welcome">
+      <h1><a href="#design">DESIGN</a></h1>
+      <h1><a href="#delivery">DELIVERY</a></h1>
+      <h1><a href="dev">DEV</a></h1>
+    </section>
+    <section id="about" name="about">
+      <p>
+        Design is an outlet for my drive to create beatiful objects.
+      </p>
+      <p>
+        UX Design challenges me to be empathetic.
+      </p>
+      <p>
+        Software is a stable medium.
+      </p>
+      <p>
+        Seattle is my home.
+      </p>
+    </section>
   </div>
 
+  <script type="text/javascript" src="vendor/jquery/min/jquery-3.2.1.min.js"></script>
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script> -->
+  <script type="text/javascript" src="vendor/moment/moment.min.js"></script>
   <script src="js/js.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
