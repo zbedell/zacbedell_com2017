@@ -7,55 +7,177 @@
   <title>ZAC UX</title>
   <meta name="description" content="">
   <meta name="author" content="Zachary Scott Bedell">
-  <link rel="icon" type="image/png" href="img/favicon-01.png" />
+  <link rel="icon" type="image/png" href="img/favicon-05.png" />
 
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald:700|PT+Mono" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+
+  <link href="https://fonts.googleapis.com/css?family=Eczar|Oswald|PT+Mono" rel="stylesheet">
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="vendor/simplegrid/simplegrid.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    TODO IE9 easter egg.
-  <![endif]-->
 </head>
 
 <body>
+  <div id="top" class="container">
+    <div class="grid">
+      <div class="nav col-1-1 mobile-col-1-1" id="top">
+        <nav>
+          <h5>
+            <a class="on" href="index.html">HOME</a>
+            <div class="divider">
+              //
+            </div>
+          <a href="work.html">WORK</a>
+          <div class="divider">
+            //
+          </div>
+          <a href="about.html">SKILLS</a>
+          <div class="divider">
+            //
+          </div>
+          <a href="docs/Zachary-Bedell-résumé-2017.pdf" download>&#8681; RÉSUMÉ</a>
+          </h5>
+        </nav>
+      </div>
+    </div>
 
-  <div class="landing" data-top>
-    <section id="top" name="top">
-      <div id="epoch-display" class="mono"></div>
-      <div id="ssz" class="mono"></div>
+    <div class="max-container">
+      <section class="grid" id="welcome">
+        <div class="col-1-12 mobile-col-1-12"></div>
+        <div class="col-1-12 mobile-col-1-12 blue-line"></div>
+        <div id="intro" class="col-10-12 mobile-col-10-12">
+          <h1>
+          Hi! I’m Zac.<br />
+          I <a href="work.html"><span class="h1-link">design</span></a> software, write <a href="about.html"><span class="h1-link">code</span></a>,<br />
+          &amp; <a href="about.html"><span class="h1-link">lead</span></a> Agile teams to market.
+          </h1>
+            <div class="slash-break">
+              / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+            </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="grid" id="lp">
+      <div class="col-1-12 mobile-col-1-12"></div>
+      <div class="col-11-12 mobile-col-11-12 blue-line"></div>
+      <div class="col-1-12 mobile-col-1-12"></div>
+      <div class="col-3-12 mobile-col-11-12">
+        <p class="blue-border">
+          I am a Seattle-based designer specializing in user experience design. I have strong supporting skills in Agile leadership and development.
+        </p>
+        <p class="blue-border">
+          Let’s build the future.
+        </p>
+        <div class="contact">
+          <a href="mailto:zacbedell@gmail.com">
+            <img src="/img/graphic/mail.svg" />
+          </a>
+          <a href="https://www.linkedin.com/in/zachary-bedell/">
+            <img src="/img/graphic/linkedin.svg" />
+          </a>
+          <a href="https://twitter.com/zbedell">
+            <img src="/img/graphic/twitter.svg" />
+          </a>
+        </div>
+        <div id="learn-more" class="page-jump col-1-1">
+          <a href="about.html">
+            <div class="slash-break">
+            / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+          </div>
+          <h5 id="learn-more-text">LEARN MORE</h5>
+          <div class="slash-break">
+            / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+          </div>
+        </a>
+        </div>
+      </div>
+      <div class="col-1-12 mobile-col-1-12"></div>
+      <div class="col-7-12 mobile-col-11-12">
+        <h4>
+          RECENT WORK
+        </h4>
+        <div class="feature">
+          <div class="carousel">
+            <div>
+              <img src="img/work/msft-gl/gl-dashboard.png" />
+            </div>
+            <div>
+              <img src="img/work/msft-gl/gl-build.png" />
+            </div>
+            <div>
+              <img src="img/work/msft-gl/gl-perf.png" />
+            </div>
+          </div>
+          <div class="col-3-12"></div>
+          <div class="write-up col-7-12">
+            <h6>LIVE WEB APP</h6>
+            <h3>Data Center Dashboard</h3>
+            <h2>MICROSOFT</h2>
+            <p>
+              Data center construction and performance metric dashboard &ndash; reducing executive communication load in this subject by <strong>300%</strong>. Designed a grading system based on data center attributes.
+            </p>
+            <div class="skills">
+              <img src="img/graphic/sketch.svg" alt="Sketch" />
+              <img src="img/graphic/illustrator.svg" alt="Illustrator" />
+              <img src="img/graphic/html5.svg" alt="HTML" />
+              <img src="img/graphic/css3.svg" alt="CSS" />
+              <img src="img/graphic/sass.svg" alt="SASS" />
+              <img src="img/graphic/nodejs.svg" alt="NodeJS" />
+              <img src="img/graphic/git.svg" alt="Git" />
+            </div>
+            <div id="to-the-batcave" class="page-jump">
+              <a href="work.html">
+                <div class="slash-break">
+                  / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+                </div>
+                <h5 id="to-the-batcave-text">MORE WORK</h5>
+                <div class="slash-break">
+                  / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="col-2-12"></div>
+        </div>
+      </div>
     </section>
-    <section id="welcome">
-      <h1><a href="#design">DESIGN</a></h1>
-      <h1><a href="#delivery">DELIVERY</a></h1>
-      <h1><a href="dev">DEV</a></h1>
-    </section>
-    <section id="about" name="about">
-      <p>
-        Design is an outlet for my drive to create beatiful objects.
-      </p>
-      <p>
-        UX Design challenges me to be empathetic.
-      </p>
-      <p>
-        Software is a stable medium.
-      </p>
-      <p>
-        Seattle is my home.
-      </p>
+
+    <section id="foot">
+      <div class="content">
+        <h6 class="col-1-1">&copy; ZACHARY BEDELL, ALL RIGHTS RESERVED <div id="ssz"></div></h6>
+      </div>
     </section>
   </div>
 
   <script type="text/javascript" src="vendor/jquery/min/jquery-3.2.1.min.js"></script>
-  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script> -->
   <script type="text/javascript" src="vendor/moment/moment.min.js"></script>
+  <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+
   <script src="js/js.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       updateClock();
+      buttonHandlers();
+      $('.carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 3737,
+      });
     });
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-34615737-1', 'auto');
+    ga('send', 'pageview');
+
   </script>
 </body>
 </html>

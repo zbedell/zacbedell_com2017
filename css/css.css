@@ -1,40 +1,194 @@
+/* Hi! Thanks for checking out my vanilla CSS file.
+I love CSS too! */
+
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Eczar', serif;
+  color: #10069F;
+  font-size: 13px;
+  line-height: 24px;
+}
+a {text-decoration: none;}
+.container {
+  min-width: 360px;
+}
+
+/* NAV */
+.nav {
+  background-image: linear-gradient(97deg, #00DDE3 0%, #FFFAC8 98%);
+  height: 27px;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav a:last-child {margin-right: 23px;}
+.nav a {
+  text-decoration: none;
+  padding: 0 3px;
+}
+.nav a:hover, .nav a.on {
+  background-color: magenta;
   color: white;
 }
-.landing {
-  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
-  -webkit-animation: hue 60s infinite linear;
-  clip-path: polygon(0 0%, 100% 0%, 100% 97%, 0% 100%);
-  padding-bottom: 7vh;
+.nav .divider {
+  margin: 0 3vw;
+  display: inline-block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* WELCOME */
+.max-container {
+  width: 100%;
+  background: url("/img/noisy-texture-100x100.png") repeat;
+  background-color: #460046;
+  max-height: 500px;
+}
+#welcome {
+  background: url("/img/ddd.jpg") no-repeat center center ;
+  background-size: cover;
+  height: 500px;
+}
+.sub-page-header {
+  background: url("/img/ddd.jpg") no-repeat center center ;
+  background-size: cover;
+  height: 97px;
+}
+#intro {
+  padding-top: 127px;
+}
+.h1-link {
+  border-bottom: 17px solid magenta;
+  display: inline-block;
+  height: 41px;
+}
+#welcome .slash-break {
+  margin-top:47px;
+}
+#learn-more {
+  margin-bottom: 57px;
+}
+#lp .blue-line {
+  height: 57px;
+  border-left: 1px solid #00DDE3;
+}
+
+/* PORTFOLIO */
+#portfolio .write-up {}
+#portfolio .slash-break {
+  margin-bottom: 57px;
+}
+.feature img {
+  width: 100%;
+}
+.skills {text-align: center;}
+.skills img {
+  width: 22px;
+  display: inline-block;
+  margin: 0 3px;
+}
+
+/* ABOUT */
+#that-list {
+  margin-bottom: 57px;
+}
+#that-list ul {
+  padding: 11px;
+  background-image: linear-gradient(137deg, #00DDE3 0%, #FFFAC8 98%);
+}
+#that-list ul li {
   font-family: 'Oswald', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 1.38em;
+  line-height: 1.62em;
 }
-h1 {font-size:17vw;line-height: 14vh;}
-a {
+#that-list ul li:before {
+  content:"\002f\002f\00a0";
+  color: white;
+}
+#that-list .that-icon-list {
+  background-image: linear-gradient(137deg, #00DDE3 0%, #FFFAC8 98%);
+}
+.that-icon-list h4 {
+  border-left: none;
+  border-bottom: none;
+  font-size: 10px;
+  padding: 0;
+  margin-bottom: 7px;
+}
+.that-list-col {margin-bottom: 37px;}
+.icon-item{
+  text-align: center;
+  width: 32%;
+  display: inline-block;
+  margin-top: 11px;
+}
+.icon-item img {
+  height: 50px;
+}
+#in-training {width: 100%;}
+#in-training h4:first-of-type {
+  color: white;
+}
+#hs, #edu {margin-bottom: 37px;}
+#contact {}
+.contact-icons {
+  margin: 17px 0 37px 22px;
+}
+.contact-icons a{
+  padding: 16px 0px 23px 3px;
+  margin-right: 11px;
   text-decoration: none;
-  border-bottom: 3px solid magenta;
-  box-shadow: inset 0 -4vh 0 magenta;
+}
+.contact-icons a:hover {
+  background-image: linear-gradient(180deg, #00DDE3 0%, #FFFAC8 98%);
+}
+.patent h3 a span {color: #00DDE3;}
+
+#cv {
+  margin: 57px 0 0 8px;
+}
+#download {
+  background-image: none;
+  margin-top: 57px;
+}
+#download h5 {margin-right: 37px}
+#zb-hs {
+  width: 100%;
+  max-width: 290px;
+  border-left: 8px solid #FFFAC8;
+  border-bottom: 5px solid #FFFAC8;
+}
+#pro-exp {margin-bottom: 37px;}
+.entry:first-of-type{
+  padding-top: 0px;
+}
+.entry {
+  border-left: 11px solid #00DDE3;
+  padding-left: 23px;
+  padding-top: 57px;
+}
+.entry h6 {
+  margin-left: -23px;
+  border-left: 16px solid #00DDE3;
+  padding-left: 7px;
 }
 
-p{font-size: 1em;line-height: 1.62em;margin-bottom: 7vh;}
-
-section#top{
-  padding: 3vh 1vw 0 0;
+/* FOOT */
+#foot .content {
+  background-image: linear-gradient(97deg, #00DDE3 0%, #FFFAC8 98%);
+  height: 47px;
+  margin-top: 57px;
+  padding-top: 11px;
 }
-
-#epoch-display{}
-#ssz{}
-
-section#welcome{
-  padding: 37vh 0 0 3vw;
+#foot h6 {
+  color: #FFF;
+  margin: 0;
+  text-align: center;
+  line-height: 1.38em;
+  letter-spacing: 2px;
 }
-
-section#about{
-  padding: 17vh 3vw 0 7vw;
+#ssz{
+  display: inline;
 }
 
 .mono {
@@ -47,14 +201,118 @@ section .mono{
   opacity: .5;
 }
 
+/* TYPE */
+p{
+  font-size: 1em;
+  line-height: 1.62em;
+  margin-bottom: 1em;
+}
+h1 {
+  font-size: 3.62em;
+  color: #FFF;
+  line-height: 1.38em;
+}
+h1 a {
+  color: #FFF;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: #00DDE3;
+}
+h2, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.38;
+	letter-spacing: 1px;
+	color: #ff00ff;
+  margin-bottom: 11px;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.38em;
+}
+h4 {
+  letter-spacing: 2.5px;
+  color: #ff00ff;
+  border-left: 11px solid #00DDE3;
+  border-bottom: 1px solid #00DDE3;
+  margin-bottom: 27px;
+  padding-left: 11px;
+}
+h5 {
+  font-weight: 700;
+  color: #10069F;
+}
+h5 a {
+  color: #10069F;
+}
+h6 {
+  font-size: 10px;
+	letter-spacing: 3px;
+	color: #00dde4;
+}
+strong {font-weight:700; font-family: sans-serif;}
+/* GRAPHIC ELEMENTS */
+.blue-line {
+  height: 100%;
+  border-left: 1px solid #00DDE3;
+}
+.slash-break {
+  display: block;
+  height: 17px;
+  width: 100%;
+  color: #00DDE3;
+  overflow: hidden;
+}
+.blue-border {
+  border-left: 11px solid #00DDE3;
+  padding-left: 11px;
+  margin-bottom: 1.62em;
+}
+.page-jump {
+  margin-top: 37px;
+  height: 66px;
+  background: url("/img/graphic/arrow-right.svg") no-repeat right;
+  text-align: right;
+  background-position-y:7px;
+}
+.page-jump h5 {
+  float: right;
+  margin: 7px 23px 3px 0;
+  padding: 0 3px;
+}
+.page-jump a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.page-jump h5.hover{
+  color: #FFF;
+  background-color: magenta;
+}
 
-
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
+/* MOBILE BREAK */
+@media (max-width: 767px){
+  .nav {
+    height: 47px;
+    padding-top: 11px;
+    text-align: center;
   }
-
-  to {
-    -webkit-filter: hue-rotate(-360deg);
+  #welcome {
+    padding-top: 47px;
   }
+  #welcome h1 {
+    font-size: 2.38em;
+  }
+  #welcome .h1-link {
+    border-bottom: 11px solid magenta;
+    height: 26px;
+  }
+  #zb-hs {
+    width: 38%;
+  }
+  #pro-exp {margin-left: 8.33%;}
 }
