@@ -148,6 +148,8 @@ h4 span a {
   color: white;
 }
 #hs, #edu {margin-bottom: 37px;}
+#edu a {color: #0000EE;}
+#edu a:hover{background-color: #B8EFE1;}
 #contact {}
 .contact-icons {
   margin: 17px 0 37px 22px;
@@ -190,7 +192,7 @@ h4 span a {
   border-left: 16px solid #00DDE3;
   padding-left: 7px;
 }
-
+.entry span {color: magenta;}
 /* FOOT */
 #foot .content {
   background-image: linear-gradient(97deg, #00DDE3 0%, #FFFAC8 98%);
@@ -273,7 +275,7 @@ h6 {
 	letter-spacing: 3px;
 	color: #00dde4;
 }
-strong {font-weight:700; font-family: sans-serif;}
+strong {font-weight:700;}
 /* GRAPHIC ELEMENTS */
 .blue-line {
   height: 100%;
