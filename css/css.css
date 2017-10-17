@@ -192,7 +192,7 @@ h4 span a {
   border-left: 16px solid #00DDE3;
   padding-left: 7px;
 }
-.entry span {color: magenta;}
+.entry h5 span {color: magenta;}
 /* FOOT */
 #foot .content {
   background-image: linear-gradient(97deg, #00DDE3 0%, #FFFAC8 98%);
