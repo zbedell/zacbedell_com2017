@@ -1,0 +1,134 @@
+
+Apply Now
+Senior UX Designer
+at Qualtrics (View all jobs)
+Seattle
+About Qualtrics
+The Qualtrics Experience Management Platform™ is a single system of record for all experience data, also called X-data™, allowing organizations to manage the four core experiences of business—customer, product, employee and brand experiences—on one platform. Over 8,500 enterprises worldwide, including more than 75 percent of the Fortune 100 and 99 of the top 100 U.S. business schools rely on Qualtrics. To learn more, and for a free account, please visit www.qualtrics.com.
+About the team
+Have you ever dreamt of being able to completely understand the users you design products for? And work on the tools that allow others to understand theirs as well? Come join Qualtrics as a Sr. UX Designer and an important member of our growing UX team. You have at least 6 years of experience crafting beautiful and easy to use experiences in complex web applications and an intense appetite for everything UX & Design. You also have a great portfolio available for review.
+On a typical day you might...
+	•	Solve a complex interaction design problem.
+	•	Create a high level wireframe of an important task flow.
+	•	Attend a feature team standup and talk with a developer about implementation details.
+	•	Review the latest build and talk to the developer about a bug you found.
+	•	Attend a UX team meeting to share designs and ideas.
+	•	Digest data from a usability study and think about how to translate it into concrete user interface design improvements.
+	•	Attend a usability session to better understand user scenarios.
+	•	Try out a new interactive prototyping tool and talk with other designers about its benefits.
+	•	Read an article on smashing magazine about how motion is the next flat.
+Responsibilities
+	•	Lead the UX of one or more of our web applications.
+	•	Work with software development, product management, UX research and our customers to create great user experiences within and across out products.
+	•	Translate high level business requirements and user scenarios into tangible user interface proposals using the latest standards in interaction design and trends in visual design.
+	•	Create low and high fidelity task flow mockups and prototypes while integrating feedback from internal stakeholders and customers.
+	•	Work with software development on prototyping, testing and implementing your UX designs.
+	•	Help define the Qualtrics UX vision and strategy.
+	•	Partner with UX Research on gathering user feedback.
+	•	Help build the UX team and culture. .
+Desired Experience
+	•	A degree in Interaction Design, Graphic Design, Industrial Design, HCI or other related field.
+	•	At least 6 years of professional experience designing great user experiences for web applications and websites.
+	•	Internalized a rigorous design process and are able to tailor it to the needs of different types of projects.
+	•	Strong interaction design skills and a solid understanding of user-centered design principles/standards and design patterns.
+	•	Strong visual design skills and a solid understanding of current visual trends
+	•	Experience with data visualization.
+	•	A proven track record of applying user-centered design processes and methods to product development.
+	•	Strong conceptual skills and demonstrated ability to rapidly prototype and design to communicate ideas to others.
+	•	Must love diving into complex user interface problems.
+	•	Ability to work independently and prioritize and manage work to meet project timelines in a fast-paced environment.
+	•	A solid understanding of web application design and implementation.
+	•	Some working knowledge of HTML5 and CSS3.
+	•	A solid understanding of what it takes to create responsive web applications.
+	•	Extensive experience working closely with development teams on implementation.
+	•	Strong communication and interpersonal skills working in a multi-disciplinary, collaborative environment.
+	•	Experience with cross-browser design and development.
+	•	Experience working in an Agile development environment.
+	•	Experience designing mobile applications is considered a plus.
+	•	A great portfolio available for review.
+Office Perks
+	•	Complimentary lunches 4 times a week.
+	•	Pop-a-shot basketball, foosball, corn-hole toss, & massage chairs.
+	•	All the snacks and beverages you can handle, cruiser bikes, skateboards, and unicycles to ride around the office.
+Apply for this Job
+* Required
+
+First Name *
+Last Name *
+Email *
+Phone
+Resume/CV *
+   Zachary-Bedell-résumé-2017PD-70.pdf 
+Cover Letter
+Attach Dropbox Google Drive Paste
+
+
+What is the most complex web application you have worked on? Why was it complex? What was your contribution? * 
+
+I have many examples of conceptually complex products in my history. In terms of user experience, we can define complexity as the opposite of simplicity and view it from two perspectives; interface design and mental model. I designed a product called Optimize while with a start-up (later purchased). My contribution included all the UX design, research, technical writing, testing, and some of the implementation as well. This product was designed for non-technical users to create, manage, and report on A/B and Multivariate web content tests. The complexity here was primarily due to the mental model that the user had to hold in mind in order to construct these test objects as defined by the mathematically rigorous backend. I spent a lot of effort designing an information architecture that mapped to the user's existing, Marketer object definitions to the appropriate backend items. This eliminated the user's mental model complexity without compromising necessary, functional backend complexity and allowed me to design a simple interface to match.
+
+
+What is the most complex data visualization project you have worked on? Why was it complex? What was your contribution? * 
+
+Data science, such as predictive analytics, is becoming increasingly accessible to product teams. Two examples from my past, both of which I was the sole UX and UI designer; multivariate test result reporting in Optimize, and a data center dashboard web app for Microsoft. Both utilized predictive analysis to project future performance based on historical data. This type of data introduces uncertainty as a confidence interval. Additionally, I designed an interface for the user to control overall statistical confidence, increasing or decreasing the interval margin as a result. This allowed the user to fine-tune the predictive reports in both apps to test their business hypotheses. The complexity here is due to the statistical understanding needed to accurately design a simple interface for users who may not have loved their statistics math class as much as I did.
+
+
+Can you give me an example of a recent product that you came across that you thought was particularly well designed? * 
+
+This is a very hard question for me, I can find well designed aspects in many products. My acoustic guitar, for example, is a hand-crafted wooden instrument, expertly designed for great sound and performance feel. It is well designed because it makes users' needs foremost; as a player, I can feel the perfectly crafted neck as I move around, and as a listener, the guitar's body projects the sound outward, allowing clear and rich music. The maker's experience is what separates this guitar from one I may build, just as a senior UX designer can bring more to the product team.
+I often imagine software as a three dimensional thing. This casts each button and field in a new perspective, making it easier to imagine each detail as a handcraft-able piece of the user's experience. 
+
+
+What does your design process typically look like? * 
+
+First is research; I want to know as much about the problem, the user, the business boundaries, the stakeholders, requirements, existing design systems, etc. as possible. This allows me to execute designs with limited waste. If necessary and time permitting, I have seen great value in personas and associated journey maps. Next is ideation; whiteboarding, ideally with the product team or stakeholders. Wireframing allows digital or paper prototypes to test the central interactions and workflows at low cost. Fidelity increases as outstanding questions are answered, eventually amounting to full-fidelity comps ready for implementation by myself or my dev team. Redlines are specs are often necessary.
+
+
+How do you decide if a design is good enough? * 
+
+"Good enough" is a slippery slope, I prefer to always shoot for excellent or game-changing. "Good enough" means the design meets all the business requirements, it fits in with the sibling designs, it is functional and doesn't influence the user's opinion much if at all. It is easy to begin the design process already at the "good enough" state by leveraging the wealth of interactions and models already established by a decade of smartphone apps and many decades of software design. This provides a great advantage to a team committed to working from Good to Exceptional. Design systems provide a more customized, branded status-quo to be established within a company, this sets how good "good enough" looks and is important for rapid product development and increases the number of exceptional solutions coming out of the product design/dev team.
+
+
+For the last few years, how has you time been divided between the following things: Interaction design, Graphic design, Information architecture, Design evangelization, Managing/mentoring other designers, Usability testing, Prototyping user interfaces, Coding User Interfaces * 
+
+45% interaction design
+10% graphic design
+10% information architecture
+5% design evangelism
+10% managing designers
+5% usability testing
+5% prototyping
+10% coding UI
+
+Now that material design is nearing its peak, what do you think will come next? * 
+
+A richer, yet still abstract, design language. More use of patterns and motion to separate foreground and background, more detailed interchanges between user focuses. Flatness is best when in contrast to rich detail, so I believe we will see an increase in the latter to provide this contrast. One major strength of material/flat design is that it is fast and cheap for a phone or browser to render. As processing power continues to increase, there will be more technical space to fill with more dynamic, richer designs.
+
+
+How would you describe your style? * 
+
+Outside of the office, I am very laid-back, my style is centered on patience and focused on the moment. In the office, I can be quite assertive, certainly when it comes to defending what I can prove is the best design path. I am always cerebral and rarely emotional. A healthy office deserves the best from us, and I always show up ready to play ball.
+Visually, I think my style can be adapted, though most of design work has been in business-to-business tools, which calls for limiting expressiveness. I would love to work on a product that challenged me into a new style. There is so much great content out there to learn from, I would really enjoy pushing myself in this way.
+
+
+
+If you had to present designs to a development team, how would you structure your presentation? How would you structure things if you had to present to an executive team instead? * 
+
+The dev team needs doors, the executives need decisions. I design dev team presentations to force discussions and decisions on requirements. This means intentionally exaggerating expensive or incomplete requirements in a certain feature to enable the group to talk through this weakness. The dev team is also excellent at evaluating new ideas and I often reserve some time in these presentations to review unconventional solutions. The structure is interactive, using prints or prototypes as fitting to the design process.
+Executives want to see the decisions and understand the process that when into them. They need to see the research and the pile of rejected ideas so they can be confident in the final design decision, even when UX is not their expertise. A designer must invite criticism to ensure the design is as good as it possibly can be, and the executives are often opinionated. The designer must also be ready to refute executive ideas appropriately, which is another benefit of UX research and testing.
+
+
+What is your ideal mode of cooperation with developers? * 
+
+Highly collaborative. Designs rarely pass from comp to code without some compromises. It is a better designer that understands the technical constraints of their medium, just as an oil painter would not attempt certain techniques, the devs are constrained by the front-end technologies. I have enjoyed writing code since I was in elementary school, and my time as Application Dev Mgr at Webtrends allowed me to get neck deep in architecture and code while still maintaining focus on the overall UX. I love making software. It is a team sport and I am made a better role-player by knowing the other roles on my team.
+
+
+If you had to give a recommendation to design professionals for an online resource or a book to read, what would it be? * 
+
+Honestly I don't have a single go-to. Crossing the Chasm by Geoffrey Moore was a short read was a valuable influence on my perception of product and business. In terms of design, I follow many art and design blogs. I would recommend something suitable to the challenge at hand, if it were web design, there are many great articles on Smashing, it if were visual design, I often pull inspiration from fine art. There are some many great sources of content, it's tough to call out a primary.
+
+
+
+Is there a particular design professional that you admire? Why? * 
+
+Tinker Hatfield. The shoes are great, sure, but his internal honesty is what I admire. He has found great success on his own terms, following his own process. He has found a niche for himself that required zero or minimal compromises and I aspire to this state of being.

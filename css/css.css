@@ -4,8 +4,8 @@ I love CSS too! */
 body {
   font-family: 'Eczar', serif;
   color: #10069F;
-  font-size: 13px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 27px;
 }
 a {text-decoration: none;}
 .container {
@@ -39,7 +39,6 @@ a {text-decoration: none;}
 /* WELCOME */
 .max-container {
   width: 100%;
-  background: url("/img/noisy-texture-100x100.png") repeat;
   background-color: #460046;
   max-height: 500px;
 }
@@ -72,10 +71,8 @@ a {text-decoration: none;}
   border-left: 1px solid #00DDE3;
 }
 h4 span a {
-  position: absolute;
-  right: 20px;
+  float: right;
   padding: 0 5px;
-  margin-right: 20px;
   cursor:pointer;
 }
 
@@ -86,6 +83,17 @@ h4 span a {
 }
 .feature img {
   width: 100%;
+}
+.role-list li:before {
+  content:"\002f\002f\00a0";
+  color: magenta;
+}
+.process-flow div{
+  display: inline-block;
+  text-align: center;
+}
+.process-flow img {
+  max-width: 100px;
 }
 .skills {text-align: center;}
 .skills img {
@@ -115,12 +123,15 @@ h4 span a {
 #that-list .that-icon-list {
   background-image: linear-gradient(137deg, #00DDE3 0%, #FFFAC8 98%);
 }
-.that-icon-list h4 {
+.that-icon-list h4, .process-flow h4 {
   border-left: none;
   border-bottom: none;
   font-size: 10px;
   padding: 0;
   margin-bottom: 7px;
+}
+.process-flow h4 {
+  font-size: 1em;
 }
 .that-list-col {margin-bottom: 37px;}
 .icon-item{
@@ -258,7 +269,7 @@ h5 a {
   color: #10069F;
 }
 h6 {
-  font-size: 10px;
+  font-size: 12px;
 	letter-spacing: 3px;
 	color: #00dde4;
 }
