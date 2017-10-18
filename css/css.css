@@ -32,7 +32,7 @@ a {text-decoration: none;}
   color: white;
 }
 .nav .divider {
-  margin: 0 3vw;
+  margin: 0 2vw;
   display: inline-block;
 }
 
@@ -102,6 +102,59 @@ h4 span a {
   margin: 0 3px;
 }
 
+/* PROCESS */
+#process-body {}
+.blocks {
+  margin-bottom: 30px;
+}
+.block-item {
+  font-family: 'Oswald', sans-serif;
+  padding-left: 11px;
+  background-image: linear-gradient(137deg, #00DDE3 0%, #FFFAC8 98%);
+}
+.blocks p {margin-top: 11px;}
+.blocks p a {
+  font-family: 'Oswald', sans-serif;
+}
+.blocks p a:hover, .blocks p a:visited {
+  background-color: #B8EFE1;
+  color: #0000EE;
+}
+.disciplines {
+ margin-bottom: 30px;
+}
+.discipline-item {
+  padding: 11px 11px 7px 11px;
+  font-family: 'Oswald', sans-serif;
+}
+#user-centered {margin-bottom: 30px;}
+#cx {
+  background:#FBF8E1;
+  margin-bottom: 30px;
+}
+#ux {  background: #DBF6CB;
+}
+#ui {background:#A6F0D2;}
+#inner-ui {background: #46E5DC;}
+#vd {
+  display: inline-block;
+  width: calc(50% - 13px);
+  padding-right: 0px;
+}
+#ixd {
+  display: inline-block;
+  width: calc(50% - 13px);
+  background: #33DADC;
+  padding-right: 0px;
+}
+#unpacking ul li:before {
+  content:"\002f\002f\00a0";
+  color: inherit;
+  padding-left: 11px;
+}
+#unpacking ul {margin-bottom: 22px;}
+#unpacking .pr {margin: 0px 0px 50px 30px;}
+
 /* ABOUT */
 #that-list {
   margin-bottom: 57px;
@@ -142,10 +195,6 @@ h4 span a {
 }
 .icon-item img {
   height: 50px;
-}
-#in-training {width: 100%;}
-#in-training h4:first-of-type {
-  color: white;
 }
 #hs, #edu {margin-bottom: 37px;}
 #edu a {color: #0000EE;}
@@ -196,11 +245,21 @@ h4 span a {
 /* FOOT */
 #foot .content {
   background-image: linear-gradient(97deg, #00DDE3 0%, #FFFAC8 98%);
-  height: 47px;
+  min-height: 47px;
   margin-top: 57px;
-  padding-top: 11px;
+  padding: 11px 0 22px 0;
 }
-#foot h6 {
+#index-foot .content {
+  background-image: linear-gradient(97deg, #00DDE3 0%, #FFFAC8 98%);
+  min-height: 81px;
+  margin-top: 57px;
+  padding: 11px 0 22px 0;
+}
+#index-foot .content p {
+  margin: 0 8.33% 11px 8.33%;
+
+}
+#foot h6, #index-foot h6 {
   color: #FFF;
   margin: 0;
   text-align: center;
@@ -335,4 +394,10 @@ strong {font-weight:700;}
     width: 38%;
   }
   #pro-exp {margin-left: 8.33%;}
+  .block-item {
+    padding-left: 11px;
+  }
+  #user-centered {
+    width: 100%;
+  }
 }
